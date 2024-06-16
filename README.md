@@ -2,7 +2,7 @@
 
 A simple Messenger clone web application built with HTML, CSS, and JavaScript.
 
-![Messenger Clone Screenshot](screenshot.png)
+![Messenger Clone Screenshot](Messenger.jpg)
 
 ## Overview
 
