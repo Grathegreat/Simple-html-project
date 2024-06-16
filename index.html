@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messenger Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Messenger Clone</h1>
+        <div id="datetime"></div>
+    </div>
+    <div class="container">
+        <div id="login-section">
+            <div class="login-box">
+                <input type="text" id="username" placeholder="Enter Username" class="input-field">
+                <button class="login-button" onclick="login()">Log In</button>
+            </div>
+        </div>
+        <div id="chat-section" style="display:none;">
+            <div class="chat-sidebar">
+                <h2>Contacts</h2>
+                <ul id="contact-list">
+                    <!-- Contacts will be dynamically added here -->
+                </ul>
+                <input type="text" id="new-contact" placeholder="Add new contact" class="input-field">
+                <button onclick="addContact()">Add Contact</button>
+            </div>
+            <div class="chat-main">
+                <div id="chat-window">
+                    <!-- Messages will be displayed here -->
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="message-input" placeholder="Type a message">
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
