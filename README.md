@@ -2,8 +2,6 @@
 
 A simple Messenger clone web application built with HTML, CSS, and JavaScript.
 
-![Messenger Clone Screenshot](Messenger.jpg)
-
 ## Overview
 
 This project is a Messenger clone that allows users to simulate messaging with contacts. It provides basic functionalities such as sending messages, unsending messages, copying messages, adding emojis, and auto-replying to messages. The application is designed to be simple and user-friendly, suitable for learning and practicing web development skills.
@@ -12,12 +10,11 @@ This project is a Messenger clone that allows users to simulate messaging with c
 
 - **User Authentication:**
   - Login with username to access the messaging interface.
+  - ![Log in Screenshot](M.jpg) 
 
 - **Messaging:**
   - Send messages to selected contacts.
-  - Unsend messages to remove the last sent message.
-  - Copy messages to clipboard.
-  - Add emojis to messages using a color picker.
+  - ![send message screenshot](C.jpg) 
 
 - **Auto-Reply:**
   - Basic implementation of auto-reply feature for selected keywords.
