@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Messenger Clone</title>
+    <title>Fakebook</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <!-- Header Section -->
     <div class="header">
-        <h1>Messenger Clone</h1>
+        <h1>Fakebook</h1>
         <div id="datetime"></div>
     </div>
+
+    <!-- Main Container -->
     <div class="container">
+        <!-- Login Section -->
         <div id="login-section">
             <div class="login-box">
                 <input type="text" id="username" placeholder="Enter Username" class="input-field">
                 <button class="login-button" onclick="login()">Log In</button>
             </div>
         </div>
+
+        <!-- Chat Section -->
         <div id="chat-section" style="display:none;">
+            <!-- Sidebar for Contacts -->
             <div class="chat-sidebar">
-                <h2>Contacts</h2>
+                <h2>Friends</h2>
                 <ul id="contact-list">
                     <!-- Contacts will be dynamically added here -->
                 </ul>
                 <input type="text" id="new-contact" placeholder="Add new contact" class="input-field">
-                <button onclick="addContact()">Add Contact</button>
+                <button onclick="addContact()">Add Friend</button>
             </div>
+
+            <!-- Main Chat Area -->
             <div class="chat-main">
                 <div id="chat-window">
                     <!-- Messages will be displayed here -->
+                </div>
+                <div id="response-container" class="response-message">
+                    <!-- Response messages will be displayed here -->
                 </div>
                 <div class="chat-input">
                     <input type="text" id="message-input" placeholder="Type a message">
@@ -38,6 +52,9 @@
             </div>
         </div>
     </div>
+
+    <!-- JavaScript File -->
     <script src="script.js"></script>
 </body>
+
 </html>
